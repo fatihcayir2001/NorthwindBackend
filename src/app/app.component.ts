@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-root',                //<app-root>
+  templateUrl: './app.component.html', //kimin componenti olduğunu belirten yer
+  styleUrls: ['./app.component.css']   //css lerini koydupumuz yer
 })
 export class AppComponent {
-  title = 'northwind';
+  title: string = 'northwind';
+  user: string = "Halil Fatih Çayır"
+  
 }
