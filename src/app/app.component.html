@@ -1,19 +1,13 @@
-
-
 <div class="container">
-    <app-navi></app-navi>
-    <div class="row">
-        <div class="col-md-3"><!--angular bir satırı 12 ye böler, 3 ünü categorye atadık-->
-            <app-category></app-category>
-        </div>
-        <div class="col-md-9">   
-            <app-product></app-product>
-        </div>
-        
-        
+  <app-navi></app-navi>
+  <div class="row">
+    <div class="col-md-3">
+      <!--angular bir satırı 12 ye böler, 3 ünü categorye atadık-->
+      <app-category></app-category>
     </div>
+    <div class="col-md-9">
+        <router-outlet></router-outlet>
+    </div>
+  </div>
 
-
-    <router-outlet></router-outlet>
 </div>
-
